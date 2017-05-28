@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Can I Eat That? </title>
+    <link rel="stylesheet" type="text/css" href="styling.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Oxygen:300,400,700" rel="stylesheet">
+</head>
+<body>
+    <div class="section1">
+        <div class="topbar">
+            <!--Source for onClick code on these buttons: https://stackoverflow.com/questions/16349490/html-css-buttons-that-scroll-down-to-different-div-sections-on-a-webpage -->
+            <input type="button" class="buttons" value="aboutMe" onClick="document.getElementById('about').scrollIntoView();">
+            <input type="button" class="buttons" value="theTeam" onClick="document.getElementById('team').scrollIntoView();">
+            <input type="button" class="buttons2" value="projectLinks" onClick="document.getElementById('links').scrollIntoView();">
+        </div>
+        <h1>Can I Eat That?</h1>
+    </div>
+    <div id="about">
+        <div class="header1">aboutMe</div>
+        <p>Can I Eat That? is a Twitter bot and an Amazon Echo application that allows you to quickly and easily
+        figure out if you are allowed, in fact, to consume that item.<br></br>This app is powered by Lambda, Python, Javascript, and
+        JSON.</p>
+        </br>
+        <center>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1024px-Python-logo-notext.svg.png" width="100px" height="100px">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/JSON_vector_logo.svg/2000px-JSON_vector_logo.svg.png" width="100px" height="100px">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2000px-Unofficial_JavaScript_logo_2.svg.png" width="100px" height="100px">
+            <img src="lambdalogo.png" style="margin-right:0px" width="100px" height="100px">
+        </center><br>
+        <p>A lesser known fact about America is that an astounding 7 in 10 Americans struggle with dietary restrictions
+        every day. Oftentimes at a party or family outing, they are unsure of what lies in the food they might eat. To
+        help these individuals, our team has created a dietary assistant. This app helps people to determine what meals
+        meet their dietary needs. Not only are those with allergies assisted by our creation, but those with religious
+        limitations are catered to as well. Individuals who can only consume Halal or Kosher items are able to find
+        locations near them that offer food that is up to their religious standards.</p>
+</p>
+    </div>
+    <div id="team">
+        <div class="header2">theTeam</div>
+        <p>We're a bunch of nerds plus one kid that knows barely anything about coding.<br><br>
+        Ryan Gilski &mdash; some alexa coding<br>
+        Joanna Kus &mdash; website and logo<br>
+        Isabella Luca &mdash; also more alexa coding<br>
+        Sohail Khan &mdash; Twitter bot<br>
+        </p>
+    </div>
+    <div id="links">
+        <div class="header3">projectLinks</div>
+        <p>Check out our Twitter bot page <a href="http://www.google.com">here</a>.<br>
+        <small>To use the bot, log into Twitter and tweet @dietaryasst and list your dietary restrictions (e.g. "@dietaryasst
+        gluten-free"). This will enable the assistant to cater to you in the future. Afterwards, to use the assistant, tweet
+        "@dietaryasst [food] [location]" to receive notifications based on your diet.<br><br></small>
+        Check out our Amazon Echo application page <a href="http://www.google.com">here</a>.<br>
+        <small>To use the Amazon Echo application, simply say Alexa's name, list your dietary restrictions, and ask your question.
+        <br>e.g. &#8220;Alexa, I am lactose intolerant. Can I order a cheese pizza at Domino&rsquo;s&#63;&#8221;</small></p>
+    </div>
+</body>
+<footer>
+    <center>a project by team rodinosaurus rex<br>
+    <img src="rodinosaur logo.png" width="200px" height="200px" style="margin: 15px 0px 0px 0px">
+    <br><hr><br>
+    <div class="smalltext">python and python logo &copy; python software foundation<br>
+    amazon web services lambda and amazon web services lambda logo &copy; amazon<br>
+    amazon web services lambda logo courtesy of amazon web services<br>
+    javascript logo, json logo, and python logo courtesy of wikimedia commons<br>
+    cloud stock photo courtesy of <a href="http://phenix59.deviantart.com/" style="color:#ffc0sa">phenix59</a></div>
+    </center>
+</footer>
+</html>

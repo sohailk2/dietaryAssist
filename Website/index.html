@@ -1,0 +1,183 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Can I Eat That? - Dietary Assistant</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <!--<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>-->
+  <style>
+    .body{background-color: ="#FF9800"}
+  </style>
+  <script>
+    var colors = [ "#795548", "#6D4C41" ,  "#5D4037" , "#6D4C41" , "#795548" , "#8D6E63"];
+    //basically a smoother transition list of colors I selected from a color pallate chart
+    var color = -1;
+    var color2 = 0;
+    var color3 = 1
+
+    var fields = "false"; //var for checking in things are complete
+
+    function changeColors()
+    {
+     //just loops through an array of colors
+     color++;
+
+
+     if(color>colors.length-1)
+     {
+       color=0;
+     }
+
+
+     document.getElementById("section1").style.backgroundColor = colors[color];
+
+
+     //theres a transition in css so the change is smooth
+
+     setTimeout(changeColors, 1500);
+    }
+  </script>
+
+  <style>
+  .transitionClass{
+         transition: background-color 3s ease
+         }
+
+  </style>
+</head>
+<body onload="changeColors()">
+  <nav class="brown darken-2 white-text" role="navigation">
+    <div class="nav-wrapper container white-text">
+      <a id="logo-container" class="brand-logo white-text">Dietary Assistant</a>
+      <ul class="right hide-on-med-and-down brown darken-1 white-text">
+        <li><a href="https://twitter.com/dietaryasst" class="white-text">Twitter</a></li>
+        <li><a href="https://developer.amazon.com/alexa" class="white-text">Amazon Alexa</a></li>
+        <li><a href="" class="white-text">About Us</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="https://twitter.com/dietaryasst">Twitter</a></li>
+        <li><a href="https://developer.amazon.com/alexa">Amazon Alexa</a></li>
+        <li><a href="">About Us</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+  <div id="index-banner" class="parallax-container" style="background-image: url(backgroundBlur.png);">
+    <div class="section no-pad-bot">
+      <div class="container ">
+        <br><br>
+        <h1 class="header center orange-text text-lighten-3">Can I Eat That?</h1>
+        <div class="row center">
+          <h5 class="header col s12 light white-text"><b><br>Hey There!<br><br>Can I Eat That? is a Twitter bot and an Amazon Echo application that allows you to quickly and easily figure out if you are allowed, in fact, to consume that item.
+
+This app is powered by Lambda, Python, Javascript, and JSON.</h5>
+        </div>
+        <!--<div class="row center">
+          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
+        </div>-->
+        </div>
+    </div>
+    <div class="parallax"><img src="blurred.jpg" alt="Unsplashed background img 1"></div>
+  </div>
+
+  <div id="section0" class="transitionClass">
+    <div class="container">
+      <div class="section">
+
+        <video controls="controls" width="400" height="300" name="Video Name" src="IMG_4767.mov"></video>
+        <video controls="controls" width="400" height="300" name="Video Name" src="IMG_4769.mov"></video>
+
+      </div>
+    </div>
+  </div>
+
+<div id="section1" class="transitionClass">
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h5 class="center"><a class="waves-effect waves-light" style="" href="https://twitter.com/dietaryasst"><img src="twitterLogo.png" height="90" width="90"></a></h5>
+            <p class="light white-text" style="font-size:150%">To use the bot, log into Twitter and tweet @dietaryasst and list your dietary restrictions (e.g. "@dietaryasst gluten-free"). This will enable the assistant to cater to you in the future. Afterwards, to use the assistant, tweet "@dietaryasst [food] [location]" to receive notifications based on your diet.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+          <h5 class="center"><a class="waves-effect waves-light" href="games.html" href="https://developer.amazon.com/alexa"><img src="amazonLogo.png" height="80" width="80"></a></h5>
+            <p class="light white-text" style="font-size:150%">To use the Amazon Echo application, simply say Alexa's name, list your dietary restrictions, and ask your question.
+e.g. “Alexa, I am lactose intolerant. Can I order a cheese pizza at Domino’s?”</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+          <h5 class="center"><a class="waves-effect waves-light" href=""><img src="infoLogo.png" height="80" width="80"></a></h5>
+            <p class="light white-text" style="font-size:150%">We're a bunch of nerds plus one kid that knows barely anything about coding. <br> Ryan Gilski—some alexa coding <br>
+Joanna Kus — website and logo <br>
+Isabella Luca — also more alexa coding <br>
+Sohail Khan — Twitter bot</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<!--
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">Information will go here.</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="minimal-2067532.png" alt="Unsplashed background img 3"></div>
+  </div>
+-->
+  <footer class="page-footer brown darken-2">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Team Rodinosaurus!</h5>
+          <p><img src="rodinoLogo.png" height="80" width="80"></p>
+          <p class="grey-text text-lighten-4"></p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Settings</h5>
+          <ul class="white-text">
+            <li><a class="blue-text text-darken-3" href="https://twitter.com/dietaryasst">Twitter</a></li>
+            <li><a class="blue-text text-darken-3" href="https://developer.amazon.com/alexa">Amazon Alexa</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Made by <a class="white-text text-lighten-3" href="">Team Rodinosaurus</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,11 @@
+allergy I am {restrictions}
+allergy I am a {restrictions}
+allergy {restrictions}
+CanIEatThat can I eat {foods}
+CanIEatThat is it okay to eat {foods}
+CanIEatThat can I eat a {foods}
+CanIEatThat can I drink a {foods}
+CanIEatThat can I have a {foods}
+CanIEatThat is it okay to drink a {foods}
+CanIEatThat is it okay to eat a {foods}
+CanIEatThat {foods}

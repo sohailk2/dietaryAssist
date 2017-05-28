@@ -1,0 +1,25 @@
+{
+  "intents": [
+    {
+      "intent": "allergy",
+      "slots": [
+        {
+          "name": "restrictions",
+          "type": "LIST_OF_RESTRICTIONS"
+        }
+      ]
+    },
+    {
+      "intent": "CanIEatThat",
+      "slots": [
+        {
+          "name": "foods",
+          "type": "LIST_OF_FOODS"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+html {
+    overflow-x: hidden;
+}
+body {
+    background-color: #4c362b;
+    padding: 0px;
+    margin: 0px;
+    font-family: "Oxygen", sans-serif;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+
+/* --------------ANIMATIONS-------------- */
+
+
+@keyframes slideright { /*@keyframes slideright code source: https://stackoverflow.com/questions/6805482/css3-transition-animation-on-load */
+  0% {transform: translateX(-100%);}
+  100% {transform: translateX(0);}
+}
+@keyframes slideleft {
+    0% {transform: translateX(100%);}
+    100% {transform: translateX(0);}
+}
+@keyframes fadein {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+
+/* --------------everything else lol--------------*/
+
+.section1, #about, #team, #links, footer {
+    transform: translateX(-100%);
+}
+.section1 {
+    margin: 0px;
+	padding: 0px 0px 150px 0px;
+	background-color: #84705e;
+	animation: 0.5s ease-out 0s 1 slideright forwards;
+}
+.topbar {
+    background: rgba(0,0,0,0.5);
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#000, rgba(0,0,0,0.8) 30%, rgba(0,0,0,0.3));
+    background: -o-linear-gradient(#000, rgba(0,0,0,0.8) 30%, rgba(0,0,0,0.3));
+    background: -moz-linear-gradient(#000, rgba(0,0,0,0.8) 30%, rgba(0,0,0,0.3));
+    background: linear-gradient(#000, rgba(0,0,0,0.8) 30%, rgba(0,0,0,0.3));
+}
+.buttons, .buttons2 {
+    padding: 10px 50px;
+    letter-spacing: 1px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 26px;
+    font-weight: 300;
+    text-shadow: 0px 0px 5px rgba(255,255,255,0.5);
+    background: none;
+    border: solid;
+    border-color: #a3988f;
+    color: #eee;
+    margin: 0px;
+    transition: 0.2s;
+}
+.buttons:hover, .buttons2:hover{
+    color: #fff;
+    text-shadow: 0px 0px 25px #fff;
+}
+.buttons:active, .buttons2:active{
+    color: #dfffb7;
+    text-shadow: 0px 0px 40px #bbb;
+}
+.buttons {
+    border-width: 0px 1.5px 0px 0px;
+
+}
+.buttons2 {
+    border-width: 0px;
+}
+h1 {
+    font-weight: 800;
+	font-family: "Oxygen", sans-serif;
+	font-size: 80px;
+	padding: 100px 0px 0px 0px;
+	margin: 0px;
+	background: -webkit-linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0));
+    background: -o-linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0));
+    background: -moz-linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0));
+    background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0));
+    color: #eee;
+    text-shadow: 0px 15px 25px #000;
+}
+.header1, .header2, .header3 {
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+.header1, .header3 {
+    color: #592202;
+}
+.header2 {
+    color: #fff;
+}
+img {
+    margin-right: 80px;
+}
+#about, #team, #links {
+    padding: 50px 20% 50px 20%;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0px;
+    text-align: center;
+}
+#about {
+    background-color: #f2f0ef;
+    color: #592202;
+    font-weight: 400;
+    border-style: solid;
+    border-width: 0px 0px 0px 20px;
+    border-color: #6a840a;
+    animation: 0.4s ease-out 0.45s 1 slideleft forwards;
+}
+#team {
+    color: #fff;
+    animation: 0.4s ease-out 0.55s 1 slideright forwards;
+    background-image: url(http://img14.deviantart.net/28f9/i/2017/147/d/a/sunset_cloud_stock_2606_by_phenix59-db0dbha.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#links {
+    background-color: #f2f0ef;
+    color: #592202;
+    font-weight: 400;
+    border-style: solid;
+    border-width: 0px 20px 0px 0px;
+    border-color: #D86714;
+    animation: 0.4s ease-out 0.65s 1 slideleft forwards;
+}
+
+
+/* --------------footer content--------------*/
+
+
+footer {
+   color: #e5dfdc;
+   background-color: #4c362b;
+   font-family: "Open Sans", sans-serif;
+   font-size: 16px;
+   text-align: center;
+   padding: 30px 0 40px 0;
+   animation: 0.4s ease-out 0.75s 1 slideright forwards;
+}
+.smalltext {
+    font-size: 12px;
+}
+hr {
+    border: solid;
+    border-width: 1px 0px 0px 0px;
+    border-color: #a3745c;
+    width: 60%;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+a {
+    color: #BD6B00;
+    text-decoration: none;
+}
