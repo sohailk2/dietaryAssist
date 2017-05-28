@@ -1,0 +1,3 @@
+gluten,vegan
+vegan,vegatarian
+gluten,lactose

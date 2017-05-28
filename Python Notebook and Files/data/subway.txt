@@ -1,0 +1,17 @@
+bacon lettuce tomato, blt, b.l.t., b.l.t. sandwich
+vegan, vegetarian, kosher, gluten
+
+meatball, Meatball Marinara
+Gluten, vegan, vegetarian, kosher, lactose
+
+philly, Philly Cheesesteak
+Gluten, vegan, vegetarian, kosher, lactose
+
+veggie, Veggie Delite
+Gluten
+
+turkey, Turkey & Cheese Sandwich, turkey and cheese sub, turkey & cheese sub
+Gluten, vegan, vegetarian, kosher, lactose
+
+ham, Ham & Cheese Sandwich, ham and cheese sub, ham & cheese sub
+Gluten, vegan, vegetarian, kosher, lactose

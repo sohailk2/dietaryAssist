@@ -1,0 +1,52 @@
+steak burrito, burrito with steak, chipotle steak burrito, steak burrito from chipotle
+vegan, vegetarian, lactose, kosher, gluten
+
+bacon lettuce tomato, blt, b.l.t., b.l.t. sandwich
+vegan, vegetarian, kosher, gluten
+
+cheese pizza, pizza hut cheese pizza, pizza hut's cheese pizza
+gluten, lactose, vegan
+
+bigmac, big mac, big-mac
+gluten, vegetarian, vegan, kosher, lactose
+
+chicken sandwich, chicken sandwich from chick fil a, chick-fil-a chicken sandwich, chick-fila chicken sandwich
+vegan, vegetarian, gluten, kosher
+
+mac and cheese, mac n' cheese, macaroni and cheese, macaroni n' cheese
+lactose, vegan,
+
+peanut butter and jelly, pb and j, pb&j, p.b.j.
+peanuts, gluten, kosher,
+
+plain bagel, plain bagel from einstein bros, einstein bro's plain bagel, einsteinbros' plain bagel, 
+gluten, kosher
+
+chocolate blizzard, chocolate blizzard from dairy queen, dairy queen's chocolate blizzard
+lactose, vegan, peanuts
+
+taco from taco bell, taco
+vegan, vegetarian, lactose, kosher, gluten
+
+glazed donut, glazed donut from dunkin donuts, dunkin donut's glazed donut
+vegan, gluten, kosher, lactose, peanut
+
+m and ms, m&ms, m and m's, m&m's
+vegan, lactose, peanuts
+
+vanilla latte, starbucks vanilla latte, starbuck's vanilla latte
+lactose, vegan
+
+
+
+
+
+
+
+
+
+
+
+
+
+Gluten, Vegan, Vegetarian, Kosher, Lactose, Peanut

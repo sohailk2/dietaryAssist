@@ -1,0 +1,17 @@
+pizza, cheese pizza, pizza hut cheese pizza, pizza hut's cheese pizza
+gluten, lactose, vegan
+
+BBQ Bacon Cheeseburger Pizza, Cheeseburger pizza, bacon cheeseburger pizza, 
+Vegan, vegetarian, lactose, kosher, gluten
+
+Bacon Spinach Alfredo Pizza, 
+Vegan, vegetarian, lactose, kosher, gluten
+
+pepporoni, Pepperoni Pizza, pepperoni pizza from pizza hut
+Vegan, vegetarian, lactose, kosher, gluten
+
+cinnamon, Cinnamon Sticks
+Gluten, vegan, lactose
+
+sausage, Sausage Pizza
+Vegan, vegetarian, lactose, kosher, gluten
